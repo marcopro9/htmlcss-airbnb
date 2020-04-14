@@ -1,0 +1,33 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+.container-img{
+  margin-top: 10px;
+  position: relative;
+  background-size: cover;
+  height: 400px;
+  width: 500px;
+  box-shadow: 2px 2px 5px #474747 ;
+}
+.container-img .filter{
+  text-shadow: 2px 2px 3px #474747 ;
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.container-img .filter .text{
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.roma{
+  Background-image: url("../img/roma.jpg");
